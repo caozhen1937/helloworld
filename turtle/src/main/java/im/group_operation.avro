@@ -1,0 +1,24 @@
+{"namespace": "easemob.avro.im",
+"type": "record",
+"name": "group_setting",
+"doc": "group operations",
+"fields": [
+{"name": "group_name", "type": ["string", "null"], "doc": "Group Name"},
+{"name": "group_id", "type": "string", "doc": "Group ID"},
+{"name": "appkey", "type": "string", "doc": "App Key in easemob"},
+{"name": "group_type", "type": "string", "doc": "group type"},
+{"name": "app_name", "type": ["string", "null"], "doc": "App Name in easemob"},
+{"name": "operator", "type": "string", "doc" : "operator name"},
+{"name": "org_name", "type": ["string", "null"], "doc": "organization name in easemob"},
+{"name": "timestamp", "type": "string", "doc": "operation time Shanghai/Asia"},
+{"name": "action", "type": "string", "doc": "operation type"},
+{"name": "usernames", "type": [{"type": "array", "items": "string", "doc": "users names"}, "null"], "doc" : "users names"},
+{"name": "member", "type": ["string", "null"], "doc" : "member"},
+{"name": "reason", "type": ["string", "null"], "doc" : "reason"},
+{"name": "mode", "type": ["string", "null"], "doc" : "mode"},
+{"name": "join_type", "type": ["string", "null"], "doc" : "join_type"},
+{"name": "from", "type": ["string", "null"], "doc" : "transfer group owner from sb"},
+{"name": "to", "type": ["string", "null"], "doc" : "transfer group owner to sb"},
+{"name": "settings", "type": [{"type": "map", "values": "string", "doc": "settings"}, "null"], "doc": "settings" }
+]
+}
