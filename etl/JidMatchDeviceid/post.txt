@@ -1,0 +1,1 @@
+47.90.58.122 a6.easemob.com [2017-03-26T00:00:14+08:00] "POST /4000095522/starmetest/token HTTP/1.1" 404 73 10.172.221.188:8080 404 53 || {\x22grant_type\x22:\x22password\x22,\x22password\x22:\x22\x22,\x22username\x22:\x22\x22}
