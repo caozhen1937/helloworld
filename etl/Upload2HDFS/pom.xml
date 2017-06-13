@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.easemob</groupId>
+  <artifactId>Upload2HDFS</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <repositories>
+	    <repository>
+	        <id>java.net</id>
+	        <url>https://maven.java.net/content/repositories/public/</url>
+	    </repository>
+	    
+	    <repository>
+                <id>nexus-aliyun</id>
+                <name>Nexus aliyun</name>
+                <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>true</enabled>
+                </snapshots>
+            </repository>
+    </repositories>
+</project>
