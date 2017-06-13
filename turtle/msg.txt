@@ -1,9 +1,0 @@
-
-
-https://native-toolchain.s3.amazonaws.com/build/374-72f1e9bb85/kudu/16dd6e4-gcc-4.9.2/kudu-16dd6e4-gcc-4.9.2-ec2-package-centos-7.tar.gz
-https://native-toolchain.s3.amazonaws.com/build/374-72f1e9bb85/llvm/3.8.0-p1-gcc-4.9.2/llvm-3.8.0-p1-gcc-4.9.2-ec2-package-centos-7.tar.gz
-https://native-toolchain.s3.amazonaws.com/build/374-72f1e9bb85/llvm/3.8.0-asserts-p1-gcc-4.9.2/llvm-3.8.0-asserts-p1-gcc-4.9.2-ec2-package-centos-7.tar.gz
-
-
-
-
